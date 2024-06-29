@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+ --bg-color: #191919;
+ --navbar-color: #343434;
+ --quick-actions-color: black;
+ --text-color: white;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+}
+body{
+ background-color: var(--bg-color);
+ color: var(--text-color);
+}
+.stepsListInJoinGdps{
+ list-style: circle;
+}
+.quick-actions{
+ background-color: var(--quick-actions-color);
+ 
+}
+/* Navigation bar */
+.navbar{
+  background-color: var(--navbar-color);
+  backdrop-filter: blur(10px);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul{
+  list-style: none;
+}
+.navbar li{
+  float: left;
+  padding: 8px;
+}
+.navbar ul a{
+  text-decoration: none;
+  color: white;
+}
+.navbar li:hover{
+  background-color: seagreen;
+  transition: 0.2s;
+}
+.login-btn{
+ text-decoration: none;
+ color: white;
+ background-color: darkorange;
+ border-radius: 20px;
+ padding: 8px;
+}
