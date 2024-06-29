@@ -1,2 +1,2 @@
 # GDPS-Dashboard
-Gemetry Dash private server "dashboard" made in HTML/CSS
+Gemetry Dash private server (GDPS) "dashboard" made in HTML/CSS
